@@ -1,4 +1,4 @@
-# css-endless-runner
+# CSS Endless Runner
 
 A pure CSS endless runner scene with parallax layers and a sprite-sheet run cycle. Built as an exercise for a web animations course.
 
