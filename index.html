@@ -4,23 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Animations Exercise</title>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const character = document.querySelector(".character");
-        document.addEventListener("keyup", (event) => {
-          if (event.code === "Space" && !character.classList.contains("jump")) {
-            character.classList.add("jump");
-          }
-        });
-
-        character.addEventListener("animationend", (event) => {
-          if (event.animationName === "jump") {
-            character.classList.remove("jump");
-          }
-        });
-      });
-    </script>
+    <title>Endless Runner</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="view">
@@ -35,8 +20,11 @@
         <div class="street">
           <div class="lines"></div>
         </div>
+        <div class="shadow"></div>
       </div>
       <div class="character"></div>
+      <div class="car-wrapper">
+      </div>
       <div class="foreground">
         <img src="assets/s2.png" alt="" />
       </div>
