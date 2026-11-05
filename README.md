@@ -1,4 +1,4 @@
-# css-endless-runner
+# CSS Endless Runner
 
 An endless runner scene built with the Web Animations API. A character runs along a road with parallax layers, jumps with a ground shadow, and shares the road with passing cars.
 
